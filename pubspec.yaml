@@ -16,8 +16,8 @@ screenshots:
   path: example/screenshots/overlay.png
 
 environment:
-  sdk: ">=3.4.0 <4.0.0"
-  flutter: ">=3.22.0"
+  sdk: ">=3.2.6 <4.0.0"
+  flutter: ">=3.16.9"
 
 dependencies:
   flutter:
@@ -25,7 +25,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  web: ">=0.5.1 <2.0.0"
+  # web: ">=0.5.1 <2.0.0"
 
 dev_dependencies:
   flutter_test:
@@ -42,6 +42,6 @@ flutter:
         pluginClass: MobileScannerPlugin
       macos:
         pluginClass: MobileScannerPlugin
-      web:
-        pluginClass: MobileScannerWeb
-        fileName: src/web/mobile_scanner_web.dart
+      # web:
+      #   pluginClass: MobileScannerWeb
+      #   fileName: src/web/mobile_scanner_web.dart
